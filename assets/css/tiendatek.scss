@@ -1,0 +1,80 @@
+---
+---
+
+@charset "utf-8";
+
+// Import baseurl from jekyll conf
+
+$baseurl: "{{ site.baseurl }}";
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
+// colors
+
+$color-text-light: #fff;
+$color-frogtek-orange: #f46423;
+$color-frogtek-orange-over: #c15420;
+$color-frogtek-green: #75a816;
+
+$color-gradient-start: #ffd86f;
+
+$color-frogtek-title: rgba(0, 0, 0, .5);
+
+$color-footer-link: #fff;
+$color-footer-text: #869791;
+
+$color-slides-dot-active: #869791;
+$color-slides-dot: #D6D6D6;
+$color-slides-dot-border: #f00;
+
+$color-icon-1: #83ff82;
+$color-icon-2: #75a816;
+$color-icon-3: #aa87e2;
+$color-icon-4: #bbbbbb;
+$color-icon-5: #d48de2;
+$color-icon-6: #ffd700;
+$color-icon-7: #ffa2d6;
+$color-icon-8: #3b37ea;
+$color-icon-9: #ffd700;
+$color-icon-10: #f1852b;
+$color-icon-11: #86c7ff;
+$color-icon-12: #ffd700;
+$color-icon-13: #ff585a;
+$color-icon-14: #b68330;
+$color-icon-15: #9af5ff;
+$color-icon-16: #ffd700;
+$color-icon-17: #ffa354;
+$color-icon-18: #ffd700;
+
+$color-trans: rgba(255, 255, 255, 0);
+
+$color-transparent-to-white: linear-gradient(to right, $color-trans 0%, $color-trans 80%, #fff 100%);
+$color-placeholder: radial-gradient( #ddd 0%, #ddd 20%, $color-trans 100%);
+
+$color-tiendatek-nav: rgba(0, 0, 0, .8);
+$color-tiendatek-nav-home: rgba(0, 0, 0, .5);
+$color-tiendatek-shadow: rgba(0, 0, 0, .6);
+
+// Utils
+@mixin prefixer($property, $value) {
+  $prefixes: ("webkit", "moz", "ms");
+  @each $prefix in $prefixes {
+    #{"-" + $prefix + "-" + $property}: $value;
+  }
+  #{$property}: $value;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import "tiendatek-theme.scss";

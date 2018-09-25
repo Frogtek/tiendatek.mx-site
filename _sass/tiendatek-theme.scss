@@ -156,6 +156,19 @@ nav {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+
+  font-size: 2em;
+  font-weight: lighter;
+
+  .review-desc {
+    font-style: italic;
+    margin-left: 20px;
+  }
+
+  .client-name {
+    font-size: .75em;
+    text-align: right;
+  }
 }
 
 // Footer
@@ -385,6 +398,10 @@ footer {
 
 .text-frogtek-orange {
   color: $color-frogtek-orange;
+}
+
+.bg-shadow {
+  background-color: $color-tiendatek-shadow;
 }
 
 // Home Slides

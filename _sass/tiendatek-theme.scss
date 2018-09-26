@@ -386,6 +386,21 @@ footer {
   font-family: 'tiendatek-icons';
 }
 
+.icon-coin-in-hand:before {
+  content: "\e913";
+  font-family: 'tiendatek-icons';
+}
+
+.icon-graduation-cap:before {
+  content: "\e914";
+  font-family: 'tiendatek-icons';
+}
+
+.icon-online-support:before {
+  content: "\e915";
+  font-family: 'tiendatek-icons';
+}
+
 // custom colors
 
 .bg-gradient-orange {
@@ -533,6 +548,7 @@ footer {
   min-height: 100vh;
 }
 
+.features-dealers,
 .features-tt-caja,
 .features-tt-control {
   .icon {
@@ -593,6 +609,15 @@ footer {
   .icon-add-to-favorites {
     color: $color-icon-18;
   }
+  .icon-coin-in-hand {
+    color: $color-icon-17;
+  }
+  .icon-graduation-cap {
+    color: $color-icon-1;
+  }
+  .icon-online-support {
+    color: $color-icon-3;
+  }
 
 }
 
@@ -638,6 +663,10 @@ footer {
 
 .bg-tiendatek-nav {
   background-color: $color-tiendatek-nav;
+}
+
+.bg-tiendatek-nav-home {
+  background-color: $color-tiendatek-nav-home;
 }
 
 .tiendatek-brand {

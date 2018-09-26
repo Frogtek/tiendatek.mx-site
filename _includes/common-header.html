@@ -1,5 +1,6 @@
-<nav id="top" class="tiendatek navbar sticky-top navbar-expand-lg navbar-dark bg-tiendatek-nav">
-    <a class="navbar-brand page-scroll" href="#top">
+<nav id="top"
+     class="tiendatek navbar sticky-top navbar-expand-lg navbar-dark bg-tiendatek-nav{% if page.layout=='home' %}-home{% endif %}">
+    <a class="navbar-brand page-scroll" href="{{site.baseurl}}/#top">
         <img src="{{site.baseurl}}/assets/img/logo_tiendatek.png" alt="tiendatek" class=".d-none .d-sm-block">
         tiendatek
     </a>

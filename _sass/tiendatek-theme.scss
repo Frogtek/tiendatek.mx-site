@@ -98,8 +98,8 @@ nav {
 .btn-outline-frogtek,
 .btn-outline-frogtek:visited,
 .btn-outline-frogtek:hover {
-  border-color: $color-frogtek-orange;
   background-color: $color-text-light;
+  border-color: $color-frogtek-orange;
   color: $color-frogtek-orange;
 }
 
@@ -189,17 +189,18 @@ footer {
   }
 
   img {
-    vertical-align: bottom;
     border-style: none;
+    vertical-align: bottom;
   }
 }
 
 // Posts
 .post-content {
   img {
-    border-radius: .25rem !important;
+    border-radius: .25rem;
     display: block;
     margin: 0 auto;
+    max-width: 100%;
   }
 
   td {
@@ -209,12 +210,11 @@ footer {
 }
 
 .post-navigation {
+  font-size: 1.25rem;
   a,
   a:visited {
     color: $color-footer-text;
   }
-
-  font-size: 1.25rem;
   .icon {
     font-size: 2em;
     vertical-align: middle;
@@ -386,18 +386,18 @@ footer {
   font-family: 'tiendatek-icons';
 }
 
-.icon-coin-in-hand:before {
-  content: "\e913";
+.icon-coin-in-hand::before {
+  content: '\e913';
   font-family: 'tiendatek-icons';
 }
 
-.icon-graduation-cap:before {
-  content: "\e914";
+.icon-graduation-cap::before {
+  content: '\e914';
   font-family: 'tiendatek-icons';
 }
 
-.icon-online-support:before {
-  content: "\e915";
+.icon-online-support::before {
+  content: '\e915';
   font-family: 'tiendatek-icons';
 }
 
@@ -504,8 +504,8 @@ footer {
   background-color: $color-tiendatek-shadow;
   min-height: 105vh;
   .display-3 {
-    font-weight: lighter;
     font-size: 3em;
+    font-weight: lighter;
     text-shadow: 0 0 1px $color-tiendatek-shadow;
   }
 }

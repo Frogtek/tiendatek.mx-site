@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include common-head.html %}
+</head>
+<body id="home">
+{% include common-header.html %}
+
+<section class="container-fluid post">
+    <div class="row justify-content-center">
+        <div class="col col-md-8 text-center mt-5 mb-5">
+            <h1 class="">{{page.title}}</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center post-content">
+        <div class="col col-md-8">
+            {{content}}
+        </div>
+    </div>
+    <div class="row justify-content-center p-md-5">
+        <div class="col col-md-8 text-right">
+            {{ page.author }} -
+            {% assign m = page.date | date: "%-m" %}
+            {% case m %}
+            {% when '1' %}Enero
+            {% when '2' %}Febrero
+            {% when '3' %}Marzo
+            {% when '4' %}Abril
+            {% when '5' %}Mayo
+            {% when '6' %}Junio
+            {% when '7' %}Julio
+            {% when '8' %}Agosto
+            {% when '9' %}Septiembre
+            {% when '10' %}Octubre
+            {% when '11' %}Noviembre
+            {% when '12' %}Diciembre
+            {% endcase %}
+            {{ page.date | date: "%Y" }}
+        </div>
+    </div>
+</section>
+
+{% assign magazine_articles = site.categories['Revista Tiendatek'] | sort: "date" | reverse %}
+{% for document in magazine_articles %}
+    {% if document.url == page.url %}
+        {% unless forloop.first %}
+            {% assign prev_index = forloop.index | minus: 2 %}
+            {% assign prev = magazine_articles[prev_index] %}
+        {% endunless %}
+        {% unless forloop.last %}
+            {% assign next_index = forloop.index %}
+            {% assign next = magazine_articles[next_index] %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+<section id="post-navigation" class="container post-navigation">
+    <div class="row">
+        <div class="col-6">
+            {% if prev.url %}
+            <a class="prev" href="{{ prev.url | relative_url }}"><i class="icon icon-left"></i> {{prev.title}}</a>
+            {% endif %}
+        </div>
+        <div class="col-6 text-right">
+            {% if next.url %}
+            <a class="next" href="{{ next.url | relative_url }}">{{next.title}} <i
+                    class="icon icon-right"></i></a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section id="post-baner" class="container-fluid">
+    <div class="row justify-content-center bg-light">
+        <div class="col p-md-5">
+            <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/blog/blog_banner.jpg"
+                                             class="rounded mx-auto d-block" alt="conoce tiendatek"></a>
+        </div>
+    </div>
+</section>
+
+{% include common-contact.html %}
+{% include common-footer.html %}
+{% include common-scripts.html %}
+</body>
+</html>

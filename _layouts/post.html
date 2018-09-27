@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include common-head.html %}
+</head>
+<body id="home">
+
+{% include common-header.html %}
+
+<section class="container-fluid post">
+    <div class="row justify-content-center">
+        <div class="col col-md-8 text-center mt-5 mb-5">
+            <h1 class="">{{page.title}}</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center post-content">
+        <div class="col col-md-8">
+            {{content}}
+        </div>
+    </div>
+    <div class="row justify-content-center p-md-5">
+        <div class="col col-md-8 text-right">
+            {{ page.author }} -
+            {% assign m = page.date | date: "%-m" %}
+            {% case m %}
+            {% when '1' %}Enero
+            {% when '2' %}Febrero
+            {% when '3' %}Marzo
+            {% when '4' %}Abril
+            {% when '5' %}Mayo
+            {% when '6' %}Junio
+            {% when '7' %}Julio
+            {% when '8' %}Agosto
+            {% when '9' %}Septiembre
+            {% when '10' %}Oktubre
+            {% when '11' %}Noviembre
+            {% when '12' %}Diciembre
+            {% endcase %}
+            {{ page.date | date: "%Y" }}
+        </div>
+    </div>
+
+</section>
+
+<section id="post-navigation" class="container post-navigation">
+    <div class="row">
+        <div class="col-6">
+            {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url | relative_url }}"><i class="icon icon-left"></i>
+                {{page.previous.title}}</a>
+            {% endif %}
+        </div>
+        <div class="col-6 text-right">
+            {% if page.next.url %}
+            <a class="next" href="{{page.next.url | relative_url}}">{{page.next.title}} <i
+                    class="icon icon-right"></i></a>
+            {% endif %}
+        </div>
+
+    </div>
+</section>
+
+<section id="post-baner" class="container-fluid">
+    <div class="row justify-content-center bg-light">
+        <div class="col p-md-5">
+            <a href="{{site.base_url}}/"><img src="{{site.base_url}}/assets/blog/blog_banner.jpg"
+                                              class="rounded mx-auto d-block"></a>
+        </div>
+    </div>
+</section>
+
+{% include common-contact.html %}
+
+{% include common-footer.html %}
+{% include common-scripts.html %}
+
+</body>
+</html>

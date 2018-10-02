@@ -10,7 +10,7 @@ author: tiendatek
 redirect_from: /los-6-productos-de-abarrotes-con-mayor-demanda/
 
 ---
-¿Sabías que\... en los últimos días 6 productos de abarrotes reportaron
+¿Sabías que... en los últimos días, 6 productos de abarrotes reportaron
 un incremento en su demanda?
 
 Aquí te compartimos los productos con un mayor crecimiento en los

@@ -1,8 +1,7 @@
 ---
 title: 'Revista Tiendatek: Volumen 4'
 date: 2014-01-29 02:59:24.000000000 +01:00
-categories:
-- Revista Tiendatek
+categories: []
 tags: []
 author: tiendatek
 redirect_from: /revista-tiendatek-volumen-4/
@@ -10,13 +9,12 @@ redirect_from: /revista-tiendatek-volumen-4/
 Amigos tenderos,
 
 Es un gusto darles la bienvenida a la cuarta edición de la Revista de la
-Liga de los Tenderos Estrella. Si deseas ver la edición pasada puedes
+Liga de los Tenderos Estrella. Si deseas ver la edición pasada ¡puedes
 consultar aquí!
 
 En esta edición, tengo la grata oportunidad de anunciarles que hemos
-llegado a Google Play- ¡Pueden [descargar Tiendatek
-gratis](https://play.google.com/store/apps/details?id=org.frogtek.tiendatekinstaller&hl=en)
-a su teléfono o tableta Android ahora mismo! Si no han probado Tiendatek
+llegado a Google Play ¡Pueden descargar Tiendatek
+gratis a su teléfono o tableta Android ahora mismo! Si no han probado Tiendatek
 en su negocio, ahora es cuando.
 
 Además, no quiero pasar por alto mis mejores deseos para todos ustedes

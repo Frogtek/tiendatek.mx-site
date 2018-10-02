@@ -36,7 +36,7 @@ Impuesto aplicado a varios productos, aquí el listado:
     exentos del impuesto.
 -   Los consumidores deberán pagar 8% más por litro de bebida
     saborizada, así como concentrados, polvos, jarabes, esencias o
-    extractos de sabores;
+    extractos de sabores.
 -   En tanto, las bebidas con graduación alcohólica de hasta 14º G.L.
     tendrán un impuesto de 26.5%, mientras que para las bebidas
     alcohólicas y cerveza con una graduación alcohólica mayor de 20º

@@ -1,5 +1,5 @@
 ---
-title: "¿SABÍAS QUE… la venta de focos incandescentes estará prohibida en el mercado
+title: "¿Sabías que… la venta de focos incandescentes estará prohibida en el mercado
   nacional?"
 date: 2013-11-28 02:30:09.000000000 +01:00
 categories:

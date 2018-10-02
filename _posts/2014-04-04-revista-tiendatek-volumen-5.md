@@ -1,8 +1,7 @@
 ---
 title: 'Revista Tiendatek: Volumen 5'
 date: 2014-04-04 10:57:10.000000000 +02:00
-categories:
-- Revista Tiendatek
+categories: []
 tags: []
 author: tiendatek
 redirect_from: /revista-tiendatek-volumen-5/

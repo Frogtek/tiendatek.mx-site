@@ -24,11 +24,9 @@ compra y qué productos generan tráfico de personas.
 De lado izquierdo encontramos los tipos de compra, tu labor es
 relacionar las columnas con su característica principal.
 
-
 | a) Compra destino           | 1\_\_\_ solo por fechas específicas es cuando tu cliente compra estos productos                     |
 | b) Compra por rutina        | 2\_\_\_ se enfoca  en la comodidad del cliente, por ejemplo cercanía o disponibilidad del producto  |
 | c) Compra ocasional         | 3\_\_\_ tu cliente se dirige al producto aunque esté en un lugar apartado                           |
 | d) Compra por conveniencia  | 4\_\_\_ tu cliente compra de manera frecuente estos productos                                       |
-
 
 _Las respuestas son: 1c, 2d, 3a y 4b_

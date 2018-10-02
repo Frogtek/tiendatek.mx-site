@@ -3,6 +3,7 @@ title: Ventajas de llevar un Control de Inventario
 date: 2014-04-04 10:39:41.000000000 +02:00
 categories:
 - Consejos e Ideas
+- Revista Tiendatek
 tags: []
 author: tiendatek
 cover_img: invnetario.jpg
@@ -32,7 +33,7 @@ cuanto a cantidad y periodicidad.
 2. Margen de Ganancia
 ---------------------
 
-### ¿Sabes cuales son los productos que generan más ganancias para tu negocio?
+### ¿Sabes cuáles son los productos que generan más ganancias para tu negocio?
 
 Es necesario que identifiques claramente el precio al que compras y al
 que vendes un producto, con ello identificas el margen de ganancia.
@@ -44,6 +45,6 @@ que vendes un producto, con ello identificas el margen de ganancia.
 
 Al llevar a cabo el inventario de tus productos, tendrás en mente cuales
 debes rotar pronto para evitar que se transformen en pérdidas para tu
-negocio. Al recibir un pedido, acomodalo de tal forma que coloques hasta
+negocio. Al recibir un pedido, acomódalo de tal forma que coloques hasta
 el fondo aquellos productos con fecha de caducidad más larga que los que
 están adelante.

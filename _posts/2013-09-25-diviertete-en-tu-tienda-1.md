@@ -22,6 +22,4 @@ la sopa de letras ¿Listo?
 
 ![07-sopa-2]({{site.baseurl}}/assets/blog/07-sopa-2.jpg)
 
- 
-
-*Para ver la solución, checa los comentarios abajo!*
+*Para ver la solución, ¡checa los comentarios abajo!*

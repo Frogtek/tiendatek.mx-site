@@ -12,5 +12,5 @@ redirect_from: /tips-para-tenderos-tiempo-aire/
 
 Siempre debes promover la venta de tiempo aire, porque ésta puede llegar a ser una de tus principales fuentes
 de ingresos. Si promocionas constantemente la venta de tiempo aire, tus clientes tendrán ya un sitio fijo al
-cual ir para adquirir recargas. Con esto también comprarán algo más, y te convertirás en su principal fuente
+que ir para adquirir recargas. Con esto también comprarán algo más, y te convertirás en su principal fuente
 de abastecimiento.

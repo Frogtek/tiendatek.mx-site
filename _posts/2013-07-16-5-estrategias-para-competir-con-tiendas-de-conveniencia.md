@@ -3,8 +3,10 @@ title: 5 Estrategias para competir con tiendas de conveniencia
 date: 2013-07-16 00:57:20.000000000 +02:00
 categories:
 - Tendencias
+- Revista Tiendatek
 tags: []
 author: tiendatek
+cover_img: 03-luz.jpg
 redirect_from: /5-estrategias-para-competir-con-tiendas-de-conveniencia/
 ---
 Actualmente, tiendas como la tuya tienen un principal rival: las tiendas de conveniencia. En este artículo te 
@@ -46,7 +48,7 @@ confianza.
 
 Coloca el precio adecuado a cada producto. A tus clientes les gusta saber el precio y echar sus
 cuentas. Está comprobado que tener precios publicados aumenta la compra promedio. Además ahorrarás
-tiempo al despachar porque tendrás menos cambios.Si sigues claramente estas estrategias para atender a
+tiempo al despachar porque tendrás menos cambios. Si sigues claramente estas estrategias para atender a
 las necesidades de tus clientes, vas a lograr que te sigan prefiriendo.
     
 

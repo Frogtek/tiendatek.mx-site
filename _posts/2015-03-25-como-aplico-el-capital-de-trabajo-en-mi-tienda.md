@@ -3,7 +3,6 @@ title: "¿Cómo aplico el Capital de Trabajo en mi tienda?"
 date: 2015-03-25 12:43:46.000000000 +01:00
 categories:
 - Consejos e Ideas
-- Revista Tiendatek
 tags: []
 author: tiendatek
 cover_img: capital_trabajo02-300x225.jpg

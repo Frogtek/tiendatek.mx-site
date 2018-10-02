@@ -3,6 +3,7 @@ title: 'Tips de tu Coach: Seguridad al Máximo'
 date: 2014-01-28 00:49:13.000000000 +01:00
 categories:
 - Consejos e Ideas
+- Revista Tiendatek
 tags: []
 author: tiendatek
 cover_img: seguridad.jpg

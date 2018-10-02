@@ -3,6 +3,7 @@ title: 5 Áreas de Oportunidad en tu negocio
 date: 2014-04-04 10:35:15.000000000 +02:00
 categories:
 - Consejos e Ideas
+- Revista Tiendatek
 tags: []
 author: tiendatek
 cover_img: oportunidad.jpg
@@ -18,14 +19,7 @@ rendimiento de tu negocio de abarrotes?
 desarrollo competitivo de la micro, pequeña y mediana empresa, ha
 identificado y clasificado las áreas problemáticas que enfrentan los
 pequeños negocios de abarrotes: Recursos Humanos, Estrategias, Finanzas,
-Mercadotecnia y Operaciones. Esto podemos apreciarlo mejor en la
-siguiente gráfica:
-
-![]({{site.baseurl}}/assets/blog/Acx-dp3M7n1_bdfAc1PyThm1pxTuRVFz52BsaILsSWNWJb2KvaXWZMqrM4RC_raRdSaeqc3qk9Ae48p0wgEyBgemaJHbRM50CLdxwg3jYwOTUz2SH4vF8z_v74TL0A){.aligncenter
-width="347px;" height="188px;"}
-
-                                                           Fuente:
-FUNDES, 2009
+Mercadotecnia y Operaciones. 
 
  Desafortunadamente, aunado a estos problemas, los negocios de abarrotes
 en México también enfrentan problemas de competitividad, la carencia de

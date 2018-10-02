@@ -3,7 +3,6 @@ title: Aprovecha mejor Navidad y Año Nuevo con tu tienda
 date: 2014-12-22 16:49:11.000000000 +01:00
 categories:
 - Consejos e Ideas
-- Revista Tiendatek
 tags:
 - año nuevo
 - estrategia
@@ -28,7 +27,7 @@ trabajando en la tienda, pero también sucede que hay días en que **la
 venta es tan buena** que no puedes desaprovechar la oportunidad de
 recibir a clientes que van a ir a tu negocio a comprar botanas,
 refrescos, cervezas, cigarros y otros productos que se consumen mucho en
-las **fiestas decembrinas**.  ¡Habrá muchos clientes esperando encontrar
+las **fiestas decembrinas**. ¡Habrá muchos clientes esperando encontrar
 una tienda abierta!
 
 Por eso tomamos los datos generados por la **Red Tiendatek** para
@@ -64,7 +63,7 @@ En cuestión de **comida**, lo más vendido fue la **Crema Alpura de 500
 ml**, el **Spaguetti La Moderna de 200 g** y el **Dulce de Leche La
 Lechera de 397 g**.
 
-Otra trivia: ¿qué crees que se haya **vendido más el 31 de diciembre**?
+Otra trivia: ¿Qué crees que se haya **vendido más el 31 de diciembre**?
 Adivinaste de nuevo, la **Coca Cola no retornable de 3 litros**. En
 segundo lugar tuvimos a la cerveza **Modelo Especial de lata de 355 ml**
 otra vez, y en tercer lugar la cerveza **Corona Mega de 12 l**.
@@ -82,7 +81,6 @@ para las fiestas y puedas impulsar tus ventas decembrinas.
 adquirirlo!](http://conoce.tiendatek.mx)
 
  
-
 *¡Feliz Navidad y Próspero Año Nuevo 2015!*
 
 *-El equipo Tiendatek*

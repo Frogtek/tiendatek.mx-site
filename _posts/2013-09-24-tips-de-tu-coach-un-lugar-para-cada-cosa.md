@@ -3,9 +3,10 @@ title: 'Tips de tu coach: Un lugar para cada cosa'
 date: 2013-09-24 00:24:33.000000000 +02:00
 categories:
 - Consejos e Ideas
+- Revista Tiendatek
 tags: []
 author: tiendatek
-img: carmen_layout.jpg
+cover_img: carmen_layout.jpg
 redirect_from: /tips-de-tu-coach-un-lugar-para-cada-cosa/
 
 ---

@@ -1,8 +1,6 @@
 ---
 title: 'Revista Tiendatek: Volumen 2'
 date: 2013-09-25 00:12:31.000000000 +02:00
-categories:
-- Revista Tiendatek
 tags: []
 author: tiendatek
 redirect_from: /revista-tiendatek-volumen-2/

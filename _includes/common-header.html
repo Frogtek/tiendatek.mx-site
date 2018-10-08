@@ -1,0 +1,31 @@
+<nav id="top"
+     class="tiendatek navbar sticky-top navbar-expand-lg navbar-dark bg-tiendatek-nav{% if page.layout=='home' %}-home{% endif %}">
+    <a class="navbar-brand page-scroll" href="{{site.baseurl}}/#top">
+        <img src="{{site.baseurl}}/assets/img/logo_tiendatek.png" alt="tiendatek" class=".d-none .d-sm-block">
+        tiendatek
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#frogtekMenu"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="frogtekMenu">
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end text-right">
+            <li>
+                <a class="nav-item nav-link page-scroll"
+                   href="{{site.baseurl}}/#features-tt-caja">características</a>
+            </li>
+            <li>
+                <a class="nav-item nav-link page-scroll"
+                   href="{{site.baseurl}}/#testimonial">testimoniales</a>
+            </li>
+            <li>
+                <a class="nav-item nav-link page-scroll"
+                   href="{{site.baseurl}}/#price">precio</a>
+            </li>
+            <li>
+                <a class="nav-item nav-link page-scroll"
+                   href="{{site.baseurl}}/#contact">contacto</a>
+            </li>
+        </ul>
+    </div>
+</nav>

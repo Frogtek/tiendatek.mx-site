@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include common-head.html %}
+</head>
+<body id="home">
+{% include common-header.html %}
+
+<section id="blog_index" class="container blog-index">
+    <div class="row justify-content-around">
+        <div class="col-12 col-md-8">
+            <h1 class="frogtek-title border-bottom">{{ page.title }}</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        {{ page.content | markdownify }}
+        <div class="card-columns">
+            {% assign magazine_articles = site.categories['Revista Tiendatek'] | sort: "date" | reverse %}
+            {% for post in magazine_articles %}
+            <a href="{{post.url|relative_url}}">
+            <div class="card">
+                {% if post.cover_img %}
+                    <img class="card-img-top" src="{{ site.baseurl }}/assets/blog/{{post.cover_img}}"
+                         alt="{{post.title}}">
+                {% else %}
+                    <div class="card-img-top empty-image"></div>
+                {% endif %}
+                <div class="card-body">
+                    <p class="card-text">{{post.title}}</p>
+                </div>
+            </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% include common-contact.html %}
+{% include common-footer.html %}
+{% include common-scripts.html %}
+</body>
+</html>

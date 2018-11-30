@@ -1,7 +1,7 @@
 <section id="contact" class="container-fluid bg-light p-md-5">
     <div class="row  justify-content-around">
         <div class="col col-md-8 text-center">
-            <h2>contacta con nosotros</h2>
+            <h2>Contacta con nosotros</h2>
             <p>Déjanos tus datos y nos pondremos en contacto contigo</p>
         </div>
     </div>
@@ -9,17 +9,17 @@
 
         {% if page.id == 'distribuidores' %}
             <div class="col col-md-4 mb-4">
-                <a href="{{ site.form_distributor_url }}" target="_blank"
-                   class="btn btn-lg btn-frogtek btn-block">¡quiero distribuir Tiendatek!</a>
+                <a href="{{ site.form_distributor_url }}" onClick="linkEvent('distribuir', 'distribuidores')" 
+                   class="btn btn-lg btn-frogtek btn-block">¡Quiero distribuir Tiendatek!</a>
             </div>
         {% else %}
             <div class="col col-md-4 mb-4">
-                <a href="{{ site.baseurl }}/distribuidores/" target="_blank"
-                   class="btn btn-lg btn-outline-frogtek btn-block">¡quiero distribuir Tiendatek!</a>
+                <a href="{{ site.baseurl }}/distribuidores/" onClick="linkEvent('distribuir', 'tiendatek')" 
+                   class="btn btn-lg btn-outline-frogtek btn-block">¡Quiero distribuir Tiendatek!</a>
             </div>
             <div class="col col-md-4 mb-4">
-                <a href="{{ site.form_shopkeeper_url }}" target="_blank"
-                   class="btn btn-lg btn-frogtek btn-block">¡quiero Tiendatek para mi tienda!</a>
+                <a href="{{ site.form_shopkeeper_url }}" onClick="linkEvent('lo_quiero', 'contacto')" 
+                   class="btn btn-lg btn-frogtek btn-block">¡Quiero Tiendatek para mi tienda!</a>
             </div>
         {% endif %}
     </div>

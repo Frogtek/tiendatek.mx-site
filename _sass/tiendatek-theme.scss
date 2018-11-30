@@ -69,10 +69,20 @@ a:hover {
 nav {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
+}
+
+.nav-type-text {
   text-transform: uppercase;
 }
 
 // Global
+
+.form-button {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
 
 .frogtek-title {
   color: $color-frogtek-title;
@@ -654,7 +664,6 @@ footer {
     font-weight: lighter;
     padding-bottom: 0;
     padding-top: 0;
-    text-transform: lowercase;
     img {
       max-width: 36px;
     }
@@ -672,7 +681,6 @@ footer {
 .tiendatek-brand {
   color: $color-frogtek-orange;
   font-family: 'MontserratRegular';
-  text-transform: lowercase;
 }
 
 // IE fixes

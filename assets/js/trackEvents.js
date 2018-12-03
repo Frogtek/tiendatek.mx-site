@@ -1,3 +1,4 @@
-function linkEvent(linkName, sourceLink){
-    gtag('event', linkName, {'source' : sourceLink})
+function linkEvent(linkName, sourceLink) {
+    gtag('event', linkName, {'source' : sourceLink});
 }
+

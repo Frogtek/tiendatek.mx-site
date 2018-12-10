@@ -38,8 +38,14 @@
       }, 1250, 'easeInOutExpo');
       event.preventDefault();
     });
+    var x = window.matchMedia("(max-width: 768px)");
+    if (x.matches) {
+      var items = 1;
+    } else {
+      var items = 3;
+    }
     var ttCarouselSetup = {
-      items:3,
+      items: items,
       nav: false,
       dots: true,
       stagePadding: 0,

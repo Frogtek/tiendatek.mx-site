@@ -1,0 +1,109 @@
+@include media-breakpoint-down(sm) {
+  .testimonial {
+    font-size: 1em;
+    padding: 1.5em;
+
+    h1 {
+      margin-bottom: 1em;
+    }
+
+    iframe {
+      width: 100%;
+    }
+
+    .img-fluid {
+      max-width: 50%;
+      margin: auto;
+    }
+  }
+
+  footer {
+    font-size: .7em;
+
+    ul {
+      padding-left: .25em;
+    }
+
+    .display-3 {
+      font-size: 4em;
+    }
+  }
+
+  .owl-carousel .owl-item img {
+    width: 70%;
+    margin: auto;
+  }
+
+  .intro {
+    font-size: 1em;
+    padding: 1.5em;
+  }
+
+  .intro h2 {
+    font-size: 1.75em;
+    margin-bottom: 1em;
+  }
+
+  .tiendatek-cover,
+  .cover-slogan {
+    .display-3 {
+      font-size: 2em;
+      padding: 1em;
+    }
+  }
+
+  #intro .btn-next {
+    margin-top: -30px;
+    padding-bottom: 1.25em;
+    
+    .display-3 {
+      font-size: 3em;
+    }
+  }
+
+  .features-dealers,
+  .features-tt-caja,
+  .features-tt-control {
+    padding: 2em;
+
+    h2 {
+      font-size: 1.75em;
+      margin-bottom: 1em;
+    }
+
+    .card {
+      margin-bottom: 1em;
+    }
+  }
+
+  .bg-tiendatek-nav-home {
+    background-color: black;
+  }
+
+  .price-container {
+    padding: 2em;
+    font-size: .75em;
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    .card-footer p {
+      font-size: 1.25em;
+      text-align: justify;
+    }
+  }
+
+  .contact-container {
+    font-size: .75em;
+    padding: 2em;
+
+    a {
+      font-size: 1.25em;
+    }
+  }
+}

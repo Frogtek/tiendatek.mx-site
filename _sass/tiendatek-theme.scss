@@ -78,9 +78,9 @@ nav {
 // Global
 
 .form-button {
-  position: fixed;
-  left: 0;
   bottom: 0;
+  left: 0;
+  position: fixed;
 }
 
 
@@ -534,7 +534,7 @@ footer {
   }
 }
 
-#intro .btn-next {
+.home-intro .btn-next {
   margin-top: -90px;
 }
 

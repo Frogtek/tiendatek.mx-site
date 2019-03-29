@@ -78,7 +78,7 @@ para las fiestas y puedas impulsar tus ventas decembrinas.
 ¿Tienes algún otro tip que quieras compartir? ¡Ponlo en los comentarios!
 
 ¿Aún no tienes Tiendatek? [¡Entra aquí para conocerlo y
-adquirirlo!](http://conoce.tiendatek.mx)
+adquirirlo!]({{ site.baseurl }}/#features-tt-caja)
 
  
 *¡Feliz Navidad y Próspero Año Nuevo 2015!*

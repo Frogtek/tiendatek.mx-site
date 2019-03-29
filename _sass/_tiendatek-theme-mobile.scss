@@ -1,3 +1,5 @@
+$colour-black: #000;
+
 @include media-breakpoint-down(sm) {
   .testimonial {
     font-size: 1em;
@@ -12,8 +14,8 @@
     }
 
     .img-fluid {
-      max-width: 50%;
       margin: auto;
+      max-width: 50%;
     }
   }
 
@@ -30,8 +32,8 @@
   }
 
   .owl-carousel .owl-item img {
-    width: 70%;
     margin: auto;
+    width: 70%;
   }
 
   .intro {
@@ -52,10 +54,10 @@
     }
   }
 
-  #intro .btn-next {
+  .home-intro .btn-next {
     margin-top: -30px;
     padding-bottom: 1.25em;
-    
+
     .display-3 {
       font-size: 3em;
     }
@@ -77,12 +79,12 @@
   }
 
   .bg-tiendatek-nav-home {
-    background-color: black;
+    background-color: $colour-black;
   }
 
   .price-container {
-    padding: 2em;
     font-size: .75em;
+    padding: 2em;
 
     h1 {
       font-size: 2.5em;

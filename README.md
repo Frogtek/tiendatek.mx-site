@@ -4,17 +4,24 @@
 This is the source code for [Tiendatek](http://tiendatek.mx) website.
 It is based on [Jekyll](https://jekyllrb.com/) and deployed to [Github pages](https://pages.github.com)
 
-## Development
+## Install/run from local
 
-### Install
+### First time only
 
-You must have `ruby` and `bundler` installed
+You must have `ruby` and `bundler` installed:
+
+```
+gem install bundler
+```
+
+To install all dependencies:
+
 
 ```
 make install
 ```
 
-### Run
+### Every time
 
 To run the web locally on [http://localhost:4000](http://localhost:4000)
 
@@ -25,17 +32,17 @@ make
 To execute all tests (or HTML tests or Css tests only):
 
 ```
-make t
-make t_html
-make t_css
+make test
+make test_html
+make test_css
 ```
 
 ## Contributing
 
 General rules:
 
-- Run the tests (and fix it) before merge to master
-- When possible, use Markdown (.md) instead of HTML (.html)
+- Run the tests (and fix them) before creating a pull request to master.
+- Use markdown (.md) instead of HTML (.html) when possible.
 
 ### Writing posts
 

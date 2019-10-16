@@ -10,3 +10,21 @@
         });
     });
 </script>
+<script>
+	if (screen.width <= 992) {
+		var form_shopkeeper_url;
+		var isWhatsapp = false;
+		if (Math.floor(Math.random() + 0.5)) {
+			form_shopkeeper_url = "{{ site.form_shopkeeper_whatsapp_url }}";
+			isWhatsapp = true;	
+		} else {
+			form_shopkeeper_url = "{{ site.form_shopkeeper_url }}?referrer=CEL"
+		}
+		jQuery(document).ready(function () {
+			if (isWhatsapp) {
+				$(".want-it").append("<img src=\"{{site.baseurl}}/assets/img/logo_whatsapp.png\" alt=\"whatsapp\">");
+			}
+			$(".want-it").attr("href", form_shopkeeper_url);
+		});
+	}
+</script>

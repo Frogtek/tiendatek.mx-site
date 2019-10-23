@@ -18,9 +18,13 @@
                 <a class="nav-item nav-link page-scroll" onClick="linkEvent('testimoniales', 'cabecera')" 
                    href="{{site.baseurl}}/#testimonial">Testimoniales</a>
             </li>
-            <li>
-                <a class="nav-item nav-link page-scroll want-it" onClick="linkEvent('lo_quiero', 'cabecera')"
+            <li class="d-none d-md-inline">
+                <a class="nav-item nav-link page-scroll" onClick="linkEvent('lo_quiero', 'cabecera')"
                    href="{{ site.form_shopkeeper_url }}">Lo quiero</a>
+            </li>
+            <li class="d-inline d-md-none">
+                <a class="nav-item nav-link page-scroll" onClick="linkEvent('lo_quiero', 'cabecera')"
+                   href="{{ site.form_shopkeeper_url }}?referrer=CEL">Lo quiero</a>
             </li>
             <li>
                 <a class="nav-item nav-link page-scroll" onClick="linkEvent('distribuidores', 'cabecera')"

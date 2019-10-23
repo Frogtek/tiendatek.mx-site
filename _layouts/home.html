@@ -19,9 +19,21 @@
 {% include common-footer.html %}
 
 {% include common-scripts.html %}
-<div class="card-body form-button">
+<div class="card-body form-button d-none d-md-inline">
     <a href="{{ site.form_shopkeeper_url }}" onClick="linkEvent('lo_quiero', 'flotante')" 
-       class="btn btn-frogtek btn-lg btn-block want-it">¡Lo quiero!</a>
+       class="btn btn-frogtek btn-lg btn-block">¡Lo quiero!</a>
+</div>
+<div class="card-body form-button d-inline d-md-none want-it-mobile">
+    <div class="btn btn-frogtek btn-lg btn-block">
+        <h5> ¡Lo quiero!</h5>
+        <h6>Contáctanos</h6>
+        <a href="{{ site.form_shopkeeper_url }}?referrer=CEL" onClick="linkEvent('lo_quiero', 'flotante')" class="want-it-inline">
+            <img src="{{site.baseurl}}/assets/img/logo_form.png" alt="whatsapp">
+        </a>
+        <a href="{{ site.form_shopkeeper_whatsapp_url }}" onClick="linkEvent('lo_quiero', 'flotante')" class="want-it-inline">
+            <img src="{{site.baseurl}}/assets/img/logo_whatsapp.png" alt="whatsapp">
+        </a>
+    </div>
 </div>
 <script src="{{site.baseurl}}/assets/vendor/jarallax-1.10.4/jarallax.min.js"></script>
 <script src="{{site.baseurl}}/assets/vendor/jarallax-1.10.4/jarallax-element.min.js"></script>

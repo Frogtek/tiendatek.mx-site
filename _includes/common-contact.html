@@ -13,14 +13,28 @@
                    class="btn btn-lg btn-frogtek btn-block">¡Quiero distribuir Tiendatek!</a>
             </div>
         {% else %}
+            <div class="col-md-2 mb-2"></div>
             <div class="col col-md-4 mb-4">
                 <a href="{{ site.baseurl }}/distribuidores/" onClick="linkEvent('distribuir', 'tiendatek')" 
                    class="btn btn-lg btn-outline-frogtek btn-block">¡Quiero distribuir Tiendatek!</a>
             </div>
-            <div class="col col-md-4 mb-4">
+            <div class="col col-md-4 mb-4 d-none d-md-inline">
                 <a href="{{ site.form_shopkeeper_url }}" onClick="linkEvent('lo_quiero', 'contacto')" 
-                   class="btn btn-lg btn-frogtek btn-block want-it">¡Quiero Tiendatek para mi tienda!</a>
+                   class="btn btn-lg btn-frogtek btn-block">¡Quiero Tiendatek para mi tienda!</a>
             </div>
+            <div class="col col-md-4 mb-4 d-inline d-md-none want-it-mobile">
+                <div class="btn btn-frogtek btn-lg btn-block">
+                    <h5>¡Quiero Tiendatek para mi tienda!</h5>
+                    <h6>Contáctanos</h6>
+                    <a href="{{ site.form_shopkeeper_url }}?referrer=CEL" onClick="linkEvent('lo_quiero', 'flotante')" class="want-it-inline">
+                        <img src="{{ site.baseurl }}/assets/img/logo_form.png" alt="whatsapp">
+                    </a>
+                    <a href="{{ site.form_shopkeeper_whatsapp_url }}" onClick="linkEvent('lo_quiero', 'flotante')" class="want-it-inline">
+                        <img src="{{ site.baseurl }}/assets/img/logo_whatsapp.png" alt="whatsapp">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-2"></div>
         {% endif %}
     </div>
 

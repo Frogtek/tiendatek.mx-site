@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include common-head-gracias.html %}
+</head>
+<body id="home">
+{% include common-header.html %}
+{% include home-cover-gracias.html %}
+{% include common-footer.html %}
+{% include common-scripts.html %}
+
+<script src="{{site.baseurl}}/assets/vendor/jarallax-1.10.4/jarallax.min.js"></script>
+<script src="{{site.baseurl}}/assets/vendor/jarallax-1.10.4/jarallax-element.min.js"></script>
+<script src="{{site.baseurl}}/assets/vendor/aos-2.3.3/aos.js"></script>
+<script src="{{site.baseurl}}/assets/vendor/jquery.easing.min.js"></script>
+<script>
+  jQuery(document).ready(function() {
+    $('.jarallax').jarallax({speed: 0.2});
+    AOS.init();
+    $('a.page-scroll').bind('click', function(event) {
+      var $anchor = $(this);
+      $('html, body').stop().animate({
+        scrollTop: ($($anchor.attr('href')).offset().top)
+      }, 1250, 'easeInOutExpo');
+      event.preventDefault();
+    });
+    var x = window.matchMedia("(max-width: 768px)");
+    if (x.matches) {
+      var items = 1;
+    } else {
+      var items = 3;
+    }
+    var ttCarouselSetup = {
+      items: items,
+      nav: false,
+      dots: true,
+      stagePadding: 0,
+      margin: 20
+    };
+    $('.tt-caja-carousel').owlCarousel(ttCarouselSetup);
+    $('.tt-control-carousel').owlCarousel(ttCarouselSetup);
+    $('.testimonial-carousel').owlCarousel({
+      autoplay: true,
+      autoplayHoverPause: true,
+      nav: false,
+      dots: true,
+      loop: true,
+      items: 1,
+      stagePadding: 0,
+      margin: 20
+    });
+  });
+</script>
+</body>
+</html>

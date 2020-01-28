@@ -711,12 +711,11 @@ footer {
   .card-body {
     width: 100%;
   }
-
 }
 
 .want-it-mobile img {
-  width: 65%;
   height: auto;
+  width: 65%;
 }
 
 .want-it-mobile a {
@@ -736,11 +735,11 @@ footer {
   margin-top: .1em;
 }
 
-.row .card .want-it-mobile img {
+.card .want-it-mobile img {
   width: 35%;
 }
 
 .want-it-inline {
-  width: 50%;
   display: inline-block;
+  width: 50%;
 }

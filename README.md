@@ -1,4 +1,7 @@
 # Tiendatek.mx
+
+**IMPORTANT NOTE: This project is currently archived since this website was migrated to WordPress.**
+
 [![Build Status](https://api.travis-ci.org/Frogtek/tiendatek.mx-site.svg)](https://travis-ci.org/Frogtek/tiendatek.mx-site)
 
 This is the source code for [Tiendatek](http://tiendatek.mx) website.
